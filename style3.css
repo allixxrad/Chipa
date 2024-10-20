@@ -1,0 +1,42 @@
+.photo {
+    width: 30%;
+    padding: 1.11rem;
+    border-radius: 5px;
+    margin: 0 20px 1.5rem auto;
+    background-color: #aaa;
+    float: left;
+  margin: 25px;
+    }
+    
+    
+    .photo img {
+        width: 100%;
+       
+    }
+    
+    .photo .caption {
+        font-size: 14px;
+        font-style: italic;}
+       
+    
+    
+    /*Очистка под фото*/
+    h2 {
+        clear: left;
+    }
+
+
+    .t {
+        text-align: center;
+        color: #aaa;
+    }
+
+    .w {
+        text-align: center;
+        
+    }
+
+    .w a{
+        color: #8b8b8b;
+        text-decoration: none;
+    }

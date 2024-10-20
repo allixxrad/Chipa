@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(200, 196, 203);
+}
+
+/*Стиль навигации */
+.dog {
+    overflow: hidden;
+    background-color: #dddcdd;
+    text-align: center;
+}
+
+/*Cтиль ссылок в навигации*/
+.dog a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/*Стиль основного содержания*/
+.d {
+    padding: 0 10%;
+}
+
+/*Стиль фотографий*/
+.photo {
+width: 30%;
+padding: 1.11rem;
+border-radius: 5px;
+margin: 0 20px 1.5rem auto;
+background-color: #aaa;
+float: left;
+}
+
+
+.photo img {
+    width: 100%;
+}
+
+.photo .caption {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/*Очистка под фото*/
+h2 {
+    clear: left;
+}
+
+.g {
+    clear: left;
+    padding: 10px;
+    text-align: center;
+    background-color:#ddd;
+    margin-top: 10px;
+}
